@@ -16,6 +16,7 @@
 		9191482424872A33004667E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9191482324872A33004667E9 /* main.m */; };
 		9191482E24872A33004667E9 /* RankingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9191482D24872A33004667E9 /* RankingTests.m */; };
 		9191483924872A33004667E9 /* RankingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9191483824872A33004667E9 /* RankingUITests.m */; };
+		9191484824873C8B004667E9 /* RankingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9191484724873C8B004667E9 /* RankingTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9191483424872A33004667E9 /* RankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9191483824872A33004667E9 /* RankingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankingUITests.m; sourceTree = "<group>"; };
 		9191483A24872A33004667E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9191484624873C8B004667E9 /* RankingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankingTableViewCell.h; sourceTree = "<group>"; };
+		9191484724873C8B004667E9 /* RankingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankingTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9191481524872A2D004667E9 /* SceneDelegate.m */,
 				9191481724872A2D004667E9 /* ViewController.h */,
 				9191481824872A2D004667E9 /* ViewController.m */,
+				9191484624873C8B004667E9 /* RankingTableViewCell.h */,
+				9191484724873C8B004667E9 /* RankingTableViewCell.m */,
 				9191481A24872A2D004667E9 /* Main.storyboard */,
 				9191481D24872A33004667E9 /* Assets.xcassets */,
 				9191481F24872A33004667E9 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9191484824873C8B004667E9 /* RankingTableViewCell.m in Sources */,
 				9191481924872A2D004667E9 /* ViewController.m in Sources */,
 				9191481324872A2D004667E9 /* AppDelegate.m in Sources */,
 				9191482424872A33004667E9 /* main.m in Sources */,
@@ -375,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,13 +446,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K46GEEFX7E;
+				DEVELOPMENT_TEAM = P26RW6NP29;
 				INFOPLIST_FILE = Ranking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = smppw.Ranking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smppw.Ranking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,13 +463,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K46GEEFX7E;
+				DEVELOPMENT_TEAM = P26RW6NP29;
 				INFOPLIST_FILE = Ranking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = smppw.Ranking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smppw.Ranking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
